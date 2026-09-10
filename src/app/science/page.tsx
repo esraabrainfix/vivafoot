@@ -1,0 +1,3 @@
+export default function SciencePage() {
+  return <main className="subpage"><a className="wordmark" href="/">Viva<span>Foot</span></a><p className="eyebrow">SCIENCE · FOUNDATION</p><h1>SPEAK THE BODY&apos;S<br /><em>LANGUAGE.</em></h1><p className="subpage-lede">A research-led foundation connecting thermal physiology, the foot as a thermal interface, hardware architecture, and a transparent research roadmap.</p><div className="subpage-list">{["Thermal physiology", "Foot as a thermal interface", "Hardware architecture", "AI architecture", "Validation", "Research directions — not current medical claims"].map((item, index) => <div key={item}><span>0{index + 1}</span><strong>{item}</strong></div>)}</div><a className="text-link" href="/">← Back to VivaFoot</a></main>;
+}

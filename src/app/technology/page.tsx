@@ -1,0 +1,3 @@
+export default function TechnologyPage() {
+  return <main className="subpage"><a className="wordmark" href="/">Viva<span>Foot</span></a><p className="eyebrow">TECHNOLOGY</p><h1>PRECISION<br /><em>THERMAL CONTROL.</em></h1><p className="subpage-lede">Hardware architecture for dual-direction thermal control, from the thermal module to the sensing and control stack.</p><div className="subpage-list">{["Bi₂Te₃ Peltier thermal module", "T300 carbon fiber structure", "NTC thermistors", "Li-ion battery", "ARM Cortex-M4 · BLE 5", "rPET / rTPU materials"].map((item, index) => <div key={item}><span>0{index + 1}</span><strong>{item}</strong></div>)}</div><a className="text-link" href="/">← Back to VivaFoot</a></main>;
+}

@@ -1,0 +1,3 @@
+export default function ContactPage() {
+  return <main className="subpage dark-subpage"><a className="wordmark" href="/">Viva<span>Foot</span></a><p className="eyebrow">CONTACT</p><h1>BUILD THE<br /><em>FUTURE WITH US.</em></h1><p className="subpage-lede">For research, partnerships, investment, or product inquiries.</p><div className="contact-details"><strong>Esraa Elmorshedy</strong><span>Founder & CEO</span><a href="mailto:esraaelmorshedy2@gmail.com">esraaelmorshedy2@gmail.com</a><a href="tel:+201014743740">+20 10 14743740</a></div><a className="text-link" href="/">← Back to VivaFoot</a></main>;
+}

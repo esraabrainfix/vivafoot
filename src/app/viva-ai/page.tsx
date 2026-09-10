@@ -1,0 +1,3 @@
+export default function VivaAiPage() {
+  return <main className="subpage dark-subpage"><a className="wordmark" href="/">Viva<span>Foot</span></a><p className="eyebrow">VIVA AI · PLATFORM ARCHITECTURE</p><h1>THE INTELLIGENCE<br /><em>BEHIND THE SYSTEM.</em></h1><p className="subpage-lede">The architecture connects body signals, sensors, decisions, thermal response, and feedback. Current product capability and future roadmap remain distinct.</p><div className="subpage-list">{["BODY", "SENSORS", "VIVA AI", "DECISION", "THERMAL RESPONSE", "FEEDBACK"].map((item, index) => <div key={item}><span>0{index + 1}</span><strong>{item}</strong></div>)}</div><a className="text-link" href="/">← Back to VivaFoot</a></main>;
+}
